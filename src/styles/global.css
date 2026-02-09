@@ -1,0 +1,20 @@
+:root {
+        --title-xl: 28px;
+        --title-lg: 24px;
+        --title-md: 20px;
+        --text-base: 16px;
+        --text-sm: 14px;
+
+        --box-width: 240px;
+        --img-width: 140px;
+
+        --btn-width: 100px;
+        --btn-height: 32px;
+        --btn-font: 16px;
+
+        --icon-sm: 16px;
+        --icon-md: 20px;
+        --icon-lg: 24px;
+
+        --container-width: 100%;
+    }

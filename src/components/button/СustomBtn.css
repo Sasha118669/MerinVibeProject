@@ -1,0 +1,83 @@
+@media (min-width: 340px) and (max-width: 480px) {
+.custom-btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 5px;
+    background-color: #fff;
+    position: relative;
+    min-width: var(--btn-width);
+    height: var(--btn-height);
+}
+.custom-btn span{
+    color: #000;
+    font-size: var(--text-base);
+    margin-right: 50px;
+    text-wrap: nowrap;
+}
+.arrow{
+    border: 2px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    margin: 3px;
+}
+
+.custom-btn:hover .arrow {
+    transition: all 0.2s ease;
+    transform: translateX(-140px);
+}
+.custom-btn:hover span {
+    margin-left: 50px !important;
+    margin-right: 20px !important;
+}
+}
+/* .custom-btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 5px;
+    background-color: #fff;
+    position: relative;
+    min-width: var(--btn-width);
+}
+.custom-btn span{
+    color: #000;
+    font-size: var(--text-base);
+    margin-right: 50px;
+    text-wrap: nowrap;
+}
+.arrow{
+    border: 2px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    margin: 3px;
+}
+
+.custom-btn:hover .arrow {
+    transition: all 0.2s ease;
+    transform: translateX(-162px);
+}
+.custom-btn:hover span {
+    margin-left: 50px !important;
+    margin-right: 20px !important;
+} */
