@@ -37,13 +37,13 @@
         --box-width: 260px;
         --img-width: 160px;
 
-        --btn-width: 120px;
-        --btn-height: 36px;
+        --btn-width: 100px;
+        --btn-height: 50px;
         --btn-font: 17px;
 
         --icon-sm: 18px;
         --icon-md: 22px;
-        --icon-lg: 26px;
+        --icon-lg: 35px;
 
         --container-width: 100%;
     }
@@ -64,13 +64,13 @@
         --box-width: 280px;
         --img-width: 180px;
 
-        --btn-width: 130px;
-        --btn-height: 38px;
+        --btn-width: 100px;
+        --btn-height: 50px;
         --btn-font: 18px;
 
         --icon-sm: 20px;
         --icon-md: 24px;
-        --icon-lg: 28px;
+        --icon-lg: 37px;
 
         --container-width: 100%;
     }
@@ -90,13 +90,13 @@
         --box-width: 300px;
         --img-width: 200px;
 
-        --btn-width: 160px;
-        --btn-height: 40px;
+        --btn-width: 100px;
+        --btn-height: 50px;
         --btn-font: 18px;
 
         --icon-sm: 22px;
         --icon-md: 26px;
-        --icon-lg: 30px;
+        --icon-lg: 38px;
 
         --container-width: 100%;
     }
@@ -117,13 +117,13 @@
         --box-width: 300px;
         --img-width: 200px;
 
-        --btn-width: 180px;
-        --btn-height: 40px;
+        --btn-width: 100px;
+        --btn-height: 50px;
         --btn-font: 18px;
 
         --icon-sm: 22px;
         --icon-md: 26px;
-        --icon-lg: 30px;
+        --icon-lg: 40px;
 
         --container-width: 1440px;
     }
