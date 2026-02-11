@@ -12,6 +12,15 @@ ArrowOnBtnIcon,
 } from "./assets/assets.js";
 export default function Home() {
  const [text, setText] = useState("Explore More");
+
+ const slides = [
+  "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/slider-pack/slider-img1.png",
+  "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/slider-pack/slider-img2.png",
+  "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/slider-pack/slider-img3.png",
+  "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/slider-pack/slider-img4.png",
+  "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/slider-pack/slider-img5.png",
+  "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/slider-pack/slider-img6.png"
+];
   return (
     <>
       <header className="header">
@@ -112,6 +121,16 @@ export default function Home() {
           </div>
 
           </div>
+          </section>
+
+          <section className="swiper">
+          <div className="swiper-track">
+          {slides.concat(slides).map((slide, index) => (
+          <div className="swiper-slide" key={slide + index}>
+          <img src={slide} alt={`Slide ${index + 1}`} />
+        </div>
+    ))}
+  </div>
           </section>
       </main>
     </>

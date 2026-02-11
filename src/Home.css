@@ -140,7 +140,9 @@ display: block;
 }
 .about-us{
     display: flex;
+    flex-direction: column;
     padding: 5px;
+    margin-bottom: 50px;
 }
 .about-us-content{
     display: flex;
@@ -173,6 +175,29 @@ display: block;
 .statistics:hover {
   transition: all 0.25s ease;
   border: 1px solid gray;
+}
+.swiper {
+  overflow: hidden;
+  max-height: 210px;
+}
+.swiper-track {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  animation: scroll 25s linear infinite;
+}
+.swiper-slide {
+  margin-top: auto;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 
