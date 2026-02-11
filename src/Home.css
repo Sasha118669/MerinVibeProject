@@ -6,6 +6,7 @@
     flex-direction: column;
     padding: 15px;
     width: 100%;
+    margin-bottom: 30px;
 } 
  .header-top-sect,
 .header-middle-sect,
@@ -131,6 +132,49 @@ display: block;
   transform: translateX(4px);
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+}
+.about-us{
+    display: flex;
+    padding: 5px;
+}
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+.about-us-content p{
+    font-size: var(--title-md);
+}
+.statistics-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.statistics{
+    border-radius: 15px;
+    padding: 5px;
+}
+.statistics h2{
+    font-weight: normal;
+    font-size: var(--title-lg);
+}
+.statistics p{
+    text-wrap: nowrap;
+    font-size: var(--text-sm) !important;
+}
+.statistics:hover {
+  transition: all 0.25s ease;
+  border: 1px solid gray;
+}
+
 
 @media (min-width: 481px) and (max-width: 768px) {
     .header-middle-sect p{
@@ -151,7 +195,20 @@ display: block;
     }
     .discover p{
     display: block;
-    } 
+    }
+    .about-us-content{
+    width: 70%;
+    }
+    .about-us-content p{
+    font-size: var(--title-lg);
+    }
+    .statistics-container{
+        gap: 4rem;
+        flex-wrap: nowrap;
+    }
+    .statistics h2{
+    font-size: var(--title-xl);
+    }
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {
@@ -170,7 +227,22 @@ display: block;
     }
     .discover p{
     display: block;
-    } 
+    }
+    .main{
+    max-width: 1440px;
+    }
+    .about-us-content{
+    width: 70%;
+    }
+    .about-us-content p{
+    font-size: var(--title-xl);
+    }
+    .statistics-container{
+    gap: 6rem;
+    }
+    .statistics h2{
+    font-size: var(--title-xl);
+    }
 }
 
 @media (min-width: 1441px){
@@ -190,4 +262,19 @@ display: block;
     .discover p{
     display: block;
     } 
+    .main{
+    max-width: 1440px;
+    }
+    .about-us-content{
+    width: 70%;
+}
+    .about-us-content p{
+    font-size: var(--title-xl);
+    }
+    .statistics-container{
+    gap: 6rem;
+    }
+    .statistics h2{
+    font-size: var(--title-xl);
+    }
 }

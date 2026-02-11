@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import {
 InstagramIcon,
@@ -11,7 +11,7 @@ ArrowOnBtnIcon,
 СustomBtn
 } from "./assets/assets.js";
 export default function Home() {
- const [text, setText] = useState("Explore More"); 
+ const [text, setText] = useState("Explore More");
   return (
     <>
       <header className="header">
@@ -46,11 +46,11 @@ export default function Home() {
 <div className="burger-menu">
   <a href="#home">Home</a>
  
-                  <a href="#destination">Destination</a>
+  <a href="#destination">Destination</a>
    
-                  <a href="#gallery">Gallery</a>
+  <a href="#gallery">Gallery</a>
 
-                  <a href="#travelPackages">Travel Packages</a>
+  <a href="#travelPackages">Travel Packages</a>
 </div>
 </div>
         </section>
@@ -86,6 +86,34 @@ export default function Home() {
           
         </section>
       </header>
+
+      <main className="main">
+          <section className="about-us">
+          <p>[About Us]</p>
+          <div className="about-us-content">
+
+          <p>It all Began with a single journey - a trip to the land of fire and ice that sparked a profound love for Nepal. Enchanted by its rugged beauty and rich culture, we knw we hand found something truly special.</p>
+
+          <div className="statistics-container">
+          <div className="statistics">
+            <h2>95%</h2>
+            <p>Customer Satisfaction</p>
+          </div>
+
+          <div className="statistics">
+            <h2>72+</h2>
+            <p>Popular Destinations</p>
+          </div>
+
+          <div className="statistics">
+            <h2>250+</h2>
+            <p>Experienced Guides</p>
+          </div>
+          </div>
+
+          </div>
+          </section>
+      </main>
     </>
   );
 }
