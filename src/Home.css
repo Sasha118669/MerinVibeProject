@@ -179,6 +179,7 @@ display: block;
 .swiper {
   overflow: hidden;
   max-height: 210px;
+  margin-bottom: 50px;
 }
 .swiper-track {
   display: flex;
@@ -189,7 +190,6 @@ display: block;
 .swiper-slide {
   margin-top: auto;
 }
-
 @keyframes scroll {
   from {
     transform: translateX(0);
@@ -199,6 +199,46 @@ display: block;
     transform: translateX(-50%);
   }
 }
+.destination{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 5px;
+    margin-bottom: 50px;
+    border: 2px solid;
+}
+.destination-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    border: 2px solid;
+}
+.destination-title h2{
+    /* width: 40%; */
+    font-size: var(--title-lg);
+    text-align: center;
+    /* margin-top: auto; */
+}
+.destination-title p{
+    /* width: 30%; */
+    text-align: center;
+    font-size: var(--text-sm) !important;
+    /* margin-top: auto; */
+}
+.destination-container{
+    /* display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+/* .destination-card:first-child{
+  grid-column: 1 / 3;
+} */
+
 
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -234,6 +274,22 @@ display: block;
     .statistics h2{
     font-size: var(--title-xl);
     }
+    .destination-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+}
+.destination-title h2{
+    text-align: left;
+    width: 40%;
+    margin-top: auto;
+}
+.destination-title p{
+    text-align: left;
+    width: 30%;
+    margin-top: auto;
+}
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {
@@ -268,6 +324,22 @@ display: block;
     .statistics h2{
     font-size: var(--title-xl);
     }
+    .destination-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+}
+.destination-title h2{
+    text-align: left;
+    width: 40%;
+    margin-top: auto;
+}
+.destination-title p{
+    text-align: left;
+    width: 30%;
+    margin-top: auto;
+}
 }
 
 @media (min-width: 1441px){
@@ -302,4 +374,20 @@ display: block;
     .statistics h2{
     font-size: var(--title-xl);
     }
+    .destination-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+}
+.destination-title h2{
+    text-align: left;
+    width: 40%;
+    margin-top: auto;
+}
+.destination-title p{
+    text-align: left;
+    width: 30%;
+    margin-top: auto;
+}
 }

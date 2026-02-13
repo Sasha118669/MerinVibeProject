@@ -1,0 +1,28 @@
+{
+    "destinations": [
+        {
+        "id": 1,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/destination-pack/destination-img1.png",
+        "title": "Pokhara",
+        "text": "Nestled in the lap of the majestic Annapurna mountain range, Pokhara is one of Nepal's most picturesque and serene cities. Often referred to as the “Gateway to the Himalayas,” Pokhara offers a stunning blend of natural beauty, adventure, and cultural richness."
+        },
+        {
+        "id": 2,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/destination-pack/destination-img2.png",
+        "title": "Kathmandu",
+        "text": "Kathmandu, the vibrant capital of Nepal, is a city where ancient history and spiritual heritage blend seamlessly with the pulse of modern life. Located in the Kathmandu Valley and surrounded by green hills, this bustling metropolis is home to seven UNESCO World Heritage Sites"
+        },
+        {
+        "id": 3,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/destination-pack/destination-img3.png",
+        "title": "Mustang",
+        "text": "Hidden beyond the towering peaks of the Himalayas lies Mustang, one of Nepal’s most mystical and remote regions. Known as the Last Forbidden Kingdom"
+        },
+        {
+        "id": 4,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/destination-pack/destination-img4.png",
+        "title": "Chitwan",
+        "text": "Located in the southern lowlands of Nepal, Chitwan is home to one of Asia’s finest wildlife reserves—Chitwan National Park, a UNESCO World Heritage Site."
+        }
+    ] 
+}

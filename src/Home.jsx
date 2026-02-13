@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { useState, useEffect } from "react";
+import Data from "./data/Data.json";
 
 import {
 InstagramIcon,
@@ -8,7 +9,8 @@ YouTubeIcon,
 TwitterIcon,
 BottomArrowIcon,
 ArrowOnBtnIcon,
-СustomBtn
+СustomBtn,
+DestinationCard
 } from "./assets/assets.js";
 export default function Home() {
  const [text, setText] = useState("Explore More");
@@ -131,7 +133,27 @@ export default function Home() {
         </div>
     ))}
   </div>
-          </section>
+        </section>
+
+        <section className="destination">
+          <p>[Destination]</p>
+          <div className="destination-title">
+            <h2>A unique blend of adventure, culture and natural wonders</h2>
+
+            <p>Discover a fussion of adventure, culture and scenicbeauty across our diverse destinations, offering unforgettanble experince at every turn.</p>
+          </div>
+
+          <div className="destination-container">
+  {Data.destinations.map((destination) => (
+    <DestinationCard
+      key={destination.id}
+      destinationImage={destination.image}
+      destinationTitle={destination.title}
+      destinationText={destination.text}
+    />
+  ))}
+</div>
+        </section>
       </main>
     </>
   );

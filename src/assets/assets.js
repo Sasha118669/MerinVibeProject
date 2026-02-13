@@ -11,6 +11,9 @@ import BatIcon from '@/assets/icons/BatIcon.jsx';
 // Кнопки
 import СustomBtn from"../components/button/СustomBtn.jsx";
 
+// Карточки
+import DestinationCard from"../components/cards/DestinationCard.jsx";
+
 // Экспорт всех ассетов
 export {
 InstagramIcon,
@@ -19,5 +22,6 @@ TwitterIcon,
 ArrowOnBtnIcon,
 BottomArrowIcon,
 BatIcon,
-СustomBtn
+СustomBtn,
+DestinationCard
 };
