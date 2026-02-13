@@ -24,5 +24,27 @@
         "title": "Chitwan",
         "text": "Located in the southern lowlands of Nepal, Chitwan is home to one of Asia’s finest wildlife reserves—Chitwan National Park, a UNESCO World Heritage Site."
         }
-    ] 
+    ],
+    "galleries": [
+        {
+        "id": 1,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/gallery-pack/gallery-img1.png",
+        "title": "Kathmandu"
+        },
+        {
+        "id": 2,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/gallery-pack/gallery-img2.png",
+        "title": "Lakes of Nepal "
+        },
+        {
+        "id": 3,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/gallery-pack/gallery-img3.png",
+        "title": "Jungle Safari"
+        },
+        {
+        "id": 4,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/gallery-pack/gallery-img4.png",
+        "title": "Trekking "
+        }
+    ]
 }

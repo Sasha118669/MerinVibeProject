@@ -10,7 +10,8 @@ TwitterIcon,
 BottomArrowIcon,
 ArrowOnBtnIcon,
 СustomBtn,
-DestinationCard
+DestinationCard,
+GalleriesCard
 } from "./assets/assets.js";
 export default function Home() {
  const [text, setText] = useState("Explore More");
@@ -153,6 +154,23 @@ export default function Home() {
     />
   ))}
 </div>
+        </section>
+
+        <section className="galleries">
+           <div className="gallerie-title">
+          <p>[Galleries]</p>
+            <h2>A visual journey through the lens, one snapshot at a time capturing the essence of our travel adventures around the world.</h2> 
+            </div>
+            <div className="gallerie-content">
+              <p>Explore More</p>
+  {Data.galleries.map((gallerie) => (
+    <GalleriesCard
+      key={gallerie.id}
+      galleriesImage={gallerie.image}
+      galleriesTitle={gallerie.title}
+    />
+  ))}
+            </div>
         </section>
       </main>
     </>

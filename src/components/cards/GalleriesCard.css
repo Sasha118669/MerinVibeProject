@@ -1,0 +1,19 @@
+.gallerie-card{
+    position: relative;
+    width: fit-content;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.gallerie-card-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
