@@ -226,13 +226,15 @@ display: block;
     gap: 1rem;
     justify-content: center;
 }
+.galleries{
+    margin-bottom: 50px;
+}
 .gallerie-title{
     display: flex;
     gap: 15px;
     margin-bottom: 50px;
 }
 .gallerie-title p{
-    font-size: var(--text-sm);
     color: gray;
 }
 .gallerie-title h2{
@@ -252,6 +254,55 @@ display: block;
     bottom: 0;
     left: 0;
     text-wrap: nowrap;
+}
+.reservation-title{
+    margin-bottom: 15px;
+}
+.reservation-title p{
+    color: gray;
+    margin-bottom: 10px;
+}
+.reservation-container{
+    display: flex;
+    flex-direction: column;
+}
+.reservation-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+.reservation-content h2{
+    font-size: var(--title-md);
+}
+.reservation-btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 30px;
+    font-size: var(--text-sm);
+}
+.reservation-btn{
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 15px;
+}
+.reservation-footer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.reservation-footer p{
+    font-size: var(--text-sm);
+    margin-top: auto;
+}
+.book-now-btn{
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: var(--text-base);
+    background-color: #fff;
+    color: rgb(72, 72, 72);
 }
 
 
@@ -375,6 +426,22 @@ display: block;
 .gallerie-content{
     padding-left: 140px;
 }
+.reservation-title{
+    margin-bottom: 40px;
+}
+.reservation-title h2{
+    font-size: var(--title-lg);
+    width: 60%;
+}
+.reservation-container{
+    flex-direction: row;
+}
+.reservation-content{
+    gap: 2rem;
+}
+.reservation-footer{
+    margin-top: auto;
+}
 }
 
 @media (min-width: 1441px){
@@ -434,5 +501,21 @@ display: block;
 }
 .gallerie-content{
     padding-left: 140px;
+}
+.reservation-title{
+    margin-bottom: 40px;
+}
+.reservation-title h2{
+    font-size: var(--title-lg);
+    width: 60%;
+}
+.reservation-container{
+    flex-direction: row;
+}
+.reservation-content{
+    gap: 2rem;
+}
+.reservation-footer{
+    margin-top: auto;
 }
 }
