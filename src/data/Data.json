@@ -46,5 +46,40 @@
         "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/gallery-pack/gallery-img4.png",
         "title": "Trekking "
         }
+    ],
+
+    "packages": [
+        {
+        "id": 1,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/packages-pack/packages-img1.png",
+        "text1": "20 Days, 4 Nights",
+        "text2": "$350/Night",
+        "title": "Mt. Everest",
+        "text": "Rising to an awe-inspiring height of 8,848.86 meters (29,031.7 feet), Mount Everest, known as Sagarmatha in Nepali and Chomolungma in Tibetan."
+        },
+        {
+        "id": 2,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/packages-pack/packages-img2.png",
+        "text1": "5 Days, 4 Nights",
+        "text2": "Rs 1500 /Night",
+        "title": "Birthplace of Lord Buddha",
+        "text": "Mesmerizing experience on the tranquil waters of Dal Lake, exploring Srinagar’s floating gardens, houseboats, and majestic mountain views."
+        },
+        {
+        "id": 3,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/packages-pack/packages-img3.png",
+        "text1": "7 Days, 6 Nights",
+        "text2": "Rs 2500 /Night",
+        "title": "Rara Lakes",
+        "text": "Mesmerizing experience on the tranquil waters of Dal Lake, exploring Srinagar’s floating gardens, houseboats, and majestic mountain views."
+        },
+        {
+        "id": 4,
+        "image": "https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/packages-pack/packages-img4.png",
+        "text1": "5 Days, 4 Nights",
+        "text2": "$350/Night",
+        "title": "Snow-Capped Gulmarg Getaway",
+        "text": "Mesmerizing experience on the tranquil waters of Dal Lake, exploring Srinagar’s floating gardens, houseboats, and majestic mountain views."
+        }    
     ]
 }

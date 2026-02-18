@@ -255,6 +255,9 @@ display: block;
     left: 0;
     text-wrap: nowrap;
 }
+.reservation{
+    margin-bottom: 50px;
+}
 .reservation-title{
     margin-bottom: 15px;
 }
@@ -304,7 +307,32 @@ display: block;
     background-color: #fff;
     color: rgb(72, 72, 72);
 }
-
+.packages{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 50px;
+}
+.packages p{
+    color: gray;
+}
+.packages-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .5rem;
+}
+.packages-title h2{
+    font-size: var(--title-md);
+}
+.packages-title p{
+    font-size: var(--text-sm);
+}
+.packages-container{
+    display: flex;
+    gap: 1rem;
+    overflow-y: auto;
+}
 
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -365,6 +393,18 @@ display: block;
 }
 .gallerie-content{
     padding-left: 140px;
+}
+.packages-title{
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+}
+.packages-title h2{
+    font-size: var(--title-lg);
+    width: 40%;
+}
+.packages-title p{
+    width: 30%;
 }
 }
 
@@ -442,6 +482,18 @@ display: block;
 .reservation-footer{
     margin-top: auto;
 }
+.packages-title{
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+}
+.packages-title h2{
+    font-size: var(--title-lg);
+    width: 40%;
+}
+.packages-title p{
+    width: 30%;
+}
 }
 
 @media (min-width: 1441px){
@@ -486,6 +538,7 @@ display: block;
     text-align: left;
     width: 40%;
     margin-top: auto;
+    font-size: var(--title-xl);
 }
 .destination-title p{
     text-align: left;
@@ -497,7 +550,7 @@ display: block;
 }
 .gallerie-title h2{
     width: 60%;
-    font-size: var(--title-lg);
+    font-size: var(--title-xl);
 }
 .gallerie-content{
     padding-left: 140px;
@@ -506,7 +559,7 @@ display: block;
     margin-bottom: 40px;
 }
 .reservation-title h2{
-    font-size: var(--title-lg);
+    font-size: var(--title-xl);
     width: 60%;
 }
 .reservation-container{
@@ -517,5 +570,16 @@ display: block;
 }
 .reservation-footer{
     margin-top: auto;
+}
+.packages-title{
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+}
+.packages-title h2{
+    font-size: var(--title-xl);
+}
+.packages-title p{
+    width: 30%;
 }
 }

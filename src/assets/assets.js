@@ -14,6 +14,7 @@ import СustomBtn from"../components/button/СustomBtn.jsx";
 // Карточки
 import DestinationCard from"../components/cards/DestinationCard.jsx";
 import GalleriesCard from"../components/cards/GalleriesCard.jsx";
+import PackagesCard from"../components/cards/PackagesCard.jsx";
 
 // Экспорт всех ассетов
 export {
@@ -25,5 +26,6 @@ BottomArrowIcon,
 BatIcon,
 СustomBtn,
 DestinationCard,
-GalleriesCard
+GalleriesCard,
+PackagesCard
 };

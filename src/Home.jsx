@@ -12,6 +12,7 @@ import {
   СustomBtn,
   DestinationCard,
   GalleriesCard,
+  PackagesCard
 } from "./assets/assets.js";
 export default function Home() {
   const [text, setText] = useState("Explore More");
@@ -234,6 +235,26 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>
+
+        <section className="packages">
+              <p>[Packages]</p>
+            <div className="packages-title">
+              <h2>Choose our range of expertly crafted packages</h2>
+              <p>Whether you’re seeking awe-inspiring landscapes, thrilling outdoor adventures, or Immerice cultural experiences, Snaeland has the perfect itinerary for you.</p>
+            </div>
+            <div className="packages-container">
+              {Data.packages.map((packageItem) => (
+                <PackagesCard
+                  key={packageItem.id}
+                  packagesImg={packageItem.image}
+                  packagesTitle={packageItem.title}
+                  packagesText={packageItem.text}
+                  text1={packageItem.text1}
+                  text2={packageItem.text2}
+                />
+              ))}
+            </div>
         </section>
       </main>
     </>

@@ -1,0 +1,43 @@
+.packages-card{
+    position: relative;
+    width: fit-content;
+    position: relative;
+    border-radius: 25px;
+    /* overflow: visible; */
+}
+
+.packages-card img{
+    max-width: 300px;
+}
+
+.packages-card-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex !important;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+    padding: 15px;
+}
+.packages-card-content p{
+    color: #fff;
+}
+.packages-card-info{
+    display: flex;
+    gap: 15px;
+}
+.packages-card-info p{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px;
+}
+.packages-time-info{
+    background: rgba(133, 131, 131, 0);
+    backdrop-filter: blur(10px);
+    color: #fff !important;
+}
+.packages-price-info{
+    background-color: #fff;
+    color: #000 !important;
+}
