@@ -9,6 +9,7 @@ import {
   TwitterIcon,
   BottomArrowIcon,
   ArrowOnBtnIcon,
+  BatIcon,
   СustomBtn,
   DestinationCard,
   GalleriesCard,
@@ -83,7 +84,12 @@ export default function Home() {
 
         <section className="header-bottom-sect">
           <div className="discover">
-            <СustomBtn />
+            <СustomBtn 
+              text1="Book Now"
+              text2="Made By Merin"
+              icon1={<ArrowOnBtnIcon />}
+              icon2={<BatIcon />}
+            />
 
             <p>
               Discover the captivating allure of Arctic wonders, from stunning
@@ -257,6 +263,70 @@ export default function Home() {
             </div>
         </section>
       </main>
+
+      <footer className="footer">
+        <section className="footer-top-sect">
+          <h2>Find the perfect trip for you and discover extraordinary adventures with us!</h2>
+          <p>Whether you’re seeking awe-inspiring landscapes, thrilling outdoor adventures, or Immerice cultural experiences, Snaeland has the perfect itinerary for you.</p>
+          <СustomBtn 
+              text1="Book Now"
+              text2="Made By Merin"
+              icon1={<ArrowOnBtnIcon />}
+              icon2={<BatIcon />}
+            />
+        </section>
+
+        <section className="footer-middle-sect">
+          <div className="footer-middle-container">
+          <div className="footer-middle-content">
+              <h2>MerinVibe</h2>
+              <p>Your Gateway to the extraordinary beauty culture and exhilaration adventures awating in the captivation landscapes of Jammu & Kashmr</p>
+            </div>
+            <div className="footer-info">
+              <div className="footer-info-left">
+              <h2>Help & Information</h2>
+              <p>Pagination</p>
+              <p>Terms & Condition</p>
+              <p>Accecories</p>
+              <p>Term of Use</p>
+              <p>Pagination</p>
+              </div>
+
+              <div className="footer-info-middle">
+              <h2>About Us</h2>
+              <p>Help Center</p>
+              <p>Address Store</p>
+              <p>Privacy Policy</p>
+              <p>Receivers & Amplifiers</p>
+              <p>Craftsandore</p>
+              </div>
+
+              <div className="footer-info-right">
+              <h2>My Account</h2>
+              <p>FAQ</p>
+              <p>My Orders</p>
+              <p>Sales Conditions</p>
+              <p>Contact</p>
+              <p>Legal Mentions</p>
+              </div>
+            </div>
+          </div>
+            <div className="footer-logo">
+              <h2>MerinVibe</h2>
+            </div>
+        </section>
+
+        <section className="footer-bottom-sect">
+          <div className="footer-bottom-nav">
+              <a href="#">Terms </a>
+              <a href="#">Privacy</a>
+              <a href="#">Cookies</a>
+              <a href="#">Legal</a>
+              <a href="#">Recalls</a>
+          </div>
+          <p>© 2024 Copyright By Oleksandr Shukshyn- JCREA</p>
+        </section>
+      </footer>
     </>
   );
 }
