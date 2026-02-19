@@ -8,8 +8,16 @@ import {
   YouTubeIcon,
   TwitterIcon,
   BottomArrowIcon,
+  HalfBottomArrIcon,
   ArrowOnBtnIcon,
+  RightArrowIcon,
+  ArrowLeftIcon,
+  RightArrNotCycleIcon,
   BatIcon,
+  SunIcon,
+  MountainIcon,
+  AirplaneIcon,
+  ClockIcon,
   СustomBtn,
   DestinationCard,
   GalleriesCard,
@@ -46,6 +54,7 @@ export default function Home() {
 
           <div className="language-header">
             <p>EN</p>
+            <HalfBottomArrIcon/>
           </div>
 
           <div className="Burger">
@@ -87,7 +96,7 @@ export default function Home() {
             <СustomBtn 
               text1="Book Now"
               text2="Made By Merin"
-              icon1={<ArrowOnBtnIcon />}
+              icon1={<ArrowOnBtnIcon className="header-bottom--arrow-on-btn-icon"/>}
               icon2={<BatIcon />}
             />
 
@@ -184,7 +193,10 @@ export default function Home() {
             </h2>
           </div>
           <div className="gallerie-content">
+            <div className="gallerie-explore-more">
             <p>Explore More</p>
+            <ArrowOnBtnIcon className="gallerie-arrow-on-btn-icon"/>
+            </div>
             {Data.galleries.map((gallerie) => (
               <GalleriesCard
                 key={gallerie.id}
@@ -196,12 +208,16 @@ export default function Home() {
         </section>
 
         <section className="reservation">
+            <p className="reservation-name">[Reservation]</p>
           <div className="reservation-title">
-            <p>[Reservation]</p>
             <h2>
               Secure Spot for an unforgettable journey through Trekking beauty
               and unique charms
             </h2>
+            <div className="reservation-arrows">
+              <ArrowLeftIcon className="reservation-arrow-left-icon"/>
+              <RightArrowIcon className="reservation-arrow-right-icon"/>
+            </div>
           </div>
           <div className="reservation-container">
             <img src="https://pub-848096b3755f485d9ace04bb5ee26618.r2.dev/pictures/annapurnaTreks-img.png" alt="reservation-picture" />
@@ -214,22 +230,27 @@ export default function Home() {
               </p>
               <div className="reservation-btns">
                 <div className="reservation-btn">
+                  <SunIcon className="reservation-icon"/>
                   <p>8 Days</p>
                 </div>
 
                 <div className="reservation-btn">
+                  <SunIcon className="reservation-icon"/>
                   <p>Mar-Oct</p>
                 </div>
 
                 <div className="reservation-btn">
+                  <MountainIcon className="reservation-icon"/>
                   <p>Mar-Oct</p>
                 </div>
 
                 <div className="reservation-btn">
+                  <AirplaneIcon className="reservation-icon"/>
                   <p>Pokhara Airport</p>
                 </div>
 
                 <div className="reservation-btn">
+                  <ClockIcon className="reservation-icon"/>
                   <p>Flexible</p>
                 </div>
                 
@@ -237,7 +258,7 @@ export default function Home() {
               <div className="reservation-footer">
                 <p>From</p>
                 <h2>Rs 8000</h2>
-                <button className="book-now-btn">Book Now</button>
+                <button className="book-now-btn">Book Now <RightArrNotCycleIcon className="reservation-arrow-right-no-cycle-icon"/></button>
               </div>
             </div>
           </div>
@@ -271,7 +292,7 @@ export default function Home() {
           <СustomBtn 
               text1="Book Now"
               text2="Made By Merin"
-              icon1={<ArrowOnBtnIcon />}
+              icon1={<ArrowOnBtnIcon className="header-bottom--arrow-on-btn-icon"/>}
               icon2={<BatIcon />}
             />
         </section>

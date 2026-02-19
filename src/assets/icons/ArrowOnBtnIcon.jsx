@@ -1,19 +1,7 @@
 import React from "react";
-export default function ArrowOnBtnIcon() {
+export default function ArrowOnBtnIcon({className}) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16">
-  <rect x="0" y="0" width="16" height="16" rx="2"/>
-
-  <path
-    d="M5 11 L11 5
-       M7 5 H11 V9"
-    fill="none"
-    stroke="#ffffff"
-    stroke-width="1.5"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
-</svg>
+    <svg className={className} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8 7a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v8a1 1 0 1 1-2 0V9.414l-8.293 8.293a1 1 0 0 1-1.414-1.414L14.586 8H9a1 1 0 0 1-1-1"/></svg>
 
   );
 }

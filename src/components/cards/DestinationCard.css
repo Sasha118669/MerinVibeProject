@@ -9,12 +9,22 @@
 .destination-card img{
     width: 100%;
 }
-
+.destination-card-arrow{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
 .destination-card-content{
     position: absolute;
+    margin: 10px;
     bottom: 0;
     left: 0;
-    width: 100%;
     display: flex;
     flex-direction: column;
     color: #fff;
