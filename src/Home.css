@@ -248,8 +248,7 @@ display: block;
     display: flex;
     flex-wrap: nowrap;
     gap: 10px;
-    justify-content: center;
-    align-items: center;
+    overflow: auto;
     position: relative;
     padding-bottom: 40px;
 }
@@ -374,7 +373,8 @@ display: block;
 .packages-container{
     display: flex;
     gap: 1rem;
-    overflow-y: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .footer{
@@ -512,6 +512,9 @@ display: block;
 .gallerie-content{
     padding-left: 140px;
 }
+.packages-container{
+    padding: 20px;
+}
 .packages-title{
     flex-direction: row;
     justify-content: space-between;
@@ -619,6 +622,9 @@ display: block;
 }
 .reservation-footer{
     margin-top: auto;
+}
+.packages-container{
+    padding: 20px;
 }
 .packages-title{
     flex-direction: row;
@@ -734,6 +740,9 @@ display: block;
 }
 .reservation-footer{
     margin-top: auto;
+}
+.packages-container{
+    padding: 20px;
 }
 .packages-title{
     flex-direction: row;

@@ -7,18 +7,20 @@
 }
 
 .destination-card img{
-    width: 100%;
+    width: 633px;
+    height: 371px;
+    /* object-fit: fill; */
 }
-.destination-card-arrow{
+.destination-card-arrow-icon{
     position: absolute;
-    top: 1px;
-    right: 1px;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 5px;
+    right: 5px;
+    display: none;
     color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
 }
 .destination-card-content{
     position: absolute;
@@ -27,6 +29,7 @@
     left: 0;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     color: #fff;
     padding: 15px;
     background: rgba(133, 131, 131, 0.3);
@@ -39,15 +42,106 @@
 
 
 @media (min-width: 769px) and (max-width: 1280px) {
-    /* .destination-card{
-    max-width: 300px;
-} */
+.destination-card-arrow-icon{
+    display: block;
+}
+.destination-card-content{
+    background: none;
+    backdrop-filter: none;
+}
+.destination-card-content p{
+    display: none;
+}
+.destination-card:hover p{
+    display:block;
+    transform: translateY(100%);
+    animation: slideUp 0.3s ease forwards;
+}
+.destination-card:hover .destination-card-content{
+    background: rgba(133, 131, 131, 0.3);
+    backdrop-filter: blur(10px);
+}
+.destination-card:hover .destination-card-arrow-icon{
+     background-color: #fff;
+     color: #000;
+}
+
+@keyframes slideUp {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {
+.destination-card-arrow-icon{
+    display: block;
+}
+.destination-card-content{
+    background: none;
+    backdrop-filter: none;
+}
+.destination-card-content p{
+    display: none;
+}
+.destination-card:hover p{
+    display:block;
+    transform: translateY(100%);
+    animation: slideUp 0.3s ease forwards;
+}
+.destination-card:hover .destination-card-content{
+    background: rgba(133, 131, 131, 0.3);
+    backdrop-filter: blur(10px);
+}
+.destination-card:hover .destination-card-arrow-icon{
+     background-color: #fff;
+     color: #000;
+}
 
+@keyframes slideUp {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 }
 
 @media (min-width: 1441px){
+.destination-card-arrow-icon{
+    display: block;
+}
+.destination-card-content{
+    background: none;
+    backdrop-filter: none;
+}
+.destination-card-content p{
+    display: none;
+}
+.destination-card:hover p{
+    display:block;
+    transform: translateY(100%);
+    animation: slideUp 0.3s ease forwards;
+}
+.destination-card:hover .destination-card-content{
+    background: rgba(133, 131, 131, 0.3);
+    backdrop-filter: blur(10px);
+}
+.destination-card:hover .destination-card-arrow-icon{
+     background-color: #fff;
+     color: #000;
+}
 
+@keyframes slideUp {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 }

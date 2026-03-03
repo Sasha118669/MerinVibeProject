@@ -1,7 +1,7 @@
 import React from "react";
 import "../cards/DestinationCard.css";
 import {
-  RightArrowIcon
+  RightArrNotCycleIcon
 } from "../../assets/assets.js";
 
 export default function DestinationCard({
@@ -14,9 +14,7 @@ destinationText
     <div className="destination-card">
 
     <img src={destinationImage} alt="Destination" />
-    <div className="destination-card-arrow">
-        <RightArrowIcon/>
-    </div>
+        <RightArrNotCycleIcon className="destination-card-arrow-icon"/>
         <div className="destination-card-content">
             <h2>{destinationTitle}</h2>
             <p>{destinationText}</p>

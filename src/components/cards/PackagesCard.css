@@ -1,9 +1,7 @@
 .packages-card{
     position: relative;
     width: fit-content;
-    position: relative;
     border-radius: 25px;
-    /* overflow: visible; */
 }
 
 .packages-card img{
@@ -40,4 +38,95 @@
 .packages-price-info{
     background-color: #fff;
     color: #000 !important;
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+    .packages-text{
+    display: none;
+    }
+    .packages-card{
+    transition: 
+        transform 0.3s ease,
+        margin 0.3s ease;
+}
+    .packages-card:hover{
+        transform: scale(1.1);
+        margin-right:12px;
+        margin-left:12px;
+    }
+    .packages-card:hover .packages-text{
+        display:block;
+    transform: translateY(100%);
+    animation: slideUp 0.4s ease forwards;
+}
+
+@keyframes slideUp {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+}
+
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+.packages-text{
+    display: none;
+    }
+    .packages-card{
+    transition: 
+        transform 0.3s ease,
+        margin 0.3s ease;
+}
+    .packages-card:hover{
+        transform: scale(1.1);
+        margin-right:12px;
+        margin-left:12px;
+    }
+    .packages-card:hover .packages-text{
+        display:block;
+    transform: translateY(100%);
+    animation: slideUp 0.4s ease forwards;
+}
+
+@keyframes slideUp {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+}
+
+@media (min-width: 1441px){
+.packages-text{
+    display: none;
+    }
+    .packages-card{
+    transition: 
+        transform 0.3s ease,
+        margin 0.3s ease;
+}
+    .packages-card:hover{
+        transform: scale(1.1);
+        margin-right:12px;
+        margin-left:12px;
+    }
+    .packages-card:hover .packages-text{
+        display:block;
+    transform: translateY(100%);
+    animation: slideUp 0.4s ease forwards;
+}
+
+@keyframes slideUp {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 }
