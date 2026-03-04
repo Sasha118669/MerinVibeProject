@@ -14,7 +14,8 @@ destinationText
     <div className="destination-card">
 
     <img src={destinationImage} alt="Destination" />
-        <RightArrNotCycleIcon className="destination-card-arrow-icon"/>
+        <RightArrNotCycleIcon className="destination-card-arrow-icon"/> 
+
         <div className="destination-card-content">
             <h2>{destinationTitle}</h2>
             <p>{destinationText}</p>

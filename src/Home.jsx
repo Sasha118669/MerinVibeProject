@@ -172,8 +172,9 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="destination-container">
-            {Data.destinations.map((destination) => (
+            <div className="destination-container">
+            <div className="destination-first-row">
+            {Data.destinations.slice(0, 2).map((destination) => (
               <DestinationCard
                 key={destination.id}
                 destinationImage={destination.image}
@@ -182,6 +183,17 @@ export default function Home() {
               />
             ))}
           </div>
+          <div className="destination-second-row">
+            {Data.destinations.slice(2, 4).map((destination) => (
+              <DestinationCard
+                key={destination.id}
+                destinationImage={destination.image}
+                destinationTitle={destination.title}
+                destinationText={destination.text}
+              />
+            ))}
+          </div>
+            </div>
         </section>
 
         <section className="galleries">

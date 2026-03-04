@@ -1,6 +1,6 @@
 .destination-card{
     position: relative;
-    width: fit-content;
+    /* width: fit-content; */
     position: relative;
     border-radius: 25px;
     overflow: hidden;
@@ -9,7 +9,8 @@
 .destination-card img{
     width: 633px;
     height: 371px;
-    /* object-fit: fill; */
+    object-fit: cover;
+    width: 100%;
 }
 .destination-card-arrow-icon{
     position: absolute;
