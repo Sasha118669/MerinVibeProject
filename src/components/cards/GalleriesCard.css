@@ -7,7 +7,6 @@
     flex-shrink: 0;
     transition: width 0.4s ease;
     cursor: pointer;
-    border: 2px solid red;
   }
   .hover-trigger {
     position: absolute;
@@ -16,7 +15,6 @@
     width: 325px;
     height: 100%;
     z-index: 10;
-    border: 2px solid;
   }
 
   .gallerie-card img {
@@ -25,11 +23,9 @@
     object-fit: cover;
     display: block;
     border-radius: 25px;
-    border: 2px solid green;
   }
 
   .gallerie-card-content {
-    border: 2px solid blue;
     position: absolute;
     bottom: 0;
     left: 0;
